@@ -1,0 +1,77 @@
+body {
+  background-color: #121212;
+  margin: 0px;
+}
+nav,
+header,
+footer {
+  display: block;
+}
+.H {
+  font-family: "prompt", serif, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-weight: 800;
+}
+.pass,
+.mail {
+  color: white;
+  margin-left: 37%;
+  font-family: "Montserrat", serif, sans-serif;
+}
+.loginbutton {
+  margin-left: 37%;
+  color: black;
+  background-color: white;
+  padding: 7px;
+  font-family: "Montserrat", serif, sans-serif;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 21px;
+}
+.loginbutton:hover {
+  background-color: #121212;
+  color: white;
+}
+input[type="text"],
+[type="password"] {
+  font-size: 20px;
+  width: 400px;
+  margin-left: 37%;
+  padding: 7px;
+  border-radius: 4px;
+  border: 5px solid white;
+}
+nav {
+  width: 100%;
+  margin: 0px;
+}
+nav ul {
+  background-color: rgb(22, 21, 21);
+  overflow: hidden;
+  margin: 0px;
+  padding: 0;
+}
+ul.topnav li {
+  list-style: none;
+  float: left;
+}
+ul.topnav li.topnav-right {
+  float: right;
+}
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  min-height: 16px;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "M PLUS Code Latin", sans-serif;
+}
+ul.topnav li a:hover {
+  background-color: white;
+  color: black;
+}

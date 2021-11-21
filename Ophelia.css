@@ -1,0 +1,94 @@
+body {
+  background-color: #121212;
+  margin: 0px;
+}
+nav,
+header,
+footer {
+  display: block;
+}
+
+.MainH {
+  font-family: "prompt", serif, sans-serif;
+  margin-left: 6%;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(92, 90, 90);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+}
+.girlnfork {
+  width: 640px;
+  height: 426px;
+  padding-top: 66.5625%;
+  display: block;
+  width: 50%;
+  margin: auto;
+  border: 0;
+  padding: 0.5px;
+  opacity: 1;
+  text-shadow: 2px 2px 2px rgb(92, 90, 90);
+}
+.greet {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: 100;
+}
+.description {
+  font-family: "Montserrat", serif, sans-serif;
+  font-weight: 1000;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 6%;
+  padding-right: 6%;
+  color: whitesmoke;
+}
+nav {
+  width: 100%;
+  margin: 0px;
+}
+nav ul {
+  background-color: rgb(22, 21, 21);
+  overflow: hidden;
+  margin: 0px;
+  padding: 0;
+}
+ul.topnav li {
+  list-style: none;
+  float: left;
+}
+ul.topnav li.topnav-right {
+  float: right;
+}
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  min-height: 16px;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "M PLUS Code Latin", sans-serif;
+}
+ul.topnav li a:hover {
+  background-color: white;
+  color: black;
+}
+ul.topnav li.dropdown {
+  display: none;
+}
+/*###Mobile Responsive###*/
+@media screen and (max-width: 640px) {
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
+  }
+  ul.topnav li.dropdown {
+    display: block;
+    float: right;
+  }
+}

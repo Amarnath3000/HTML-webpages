@@ -1,0 +1,47 @@
+body {
+  background-color: #121212;
+  margin: 0px;
+}
+.men {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  margin: 0px;
+}
+nav ul {
+  background-color: rgb(22, 21, 21);
+  overflow: hidden;
+  margin: 0px;
+  padding: 0;
+}
+ul.topnav li {
+  list-style: none;
+  float: left;
+}
+ul.topnav li.topnav-right {
+  float: right;
+}
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  min-height: 16px;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "M PLUS Code Latin", sans-serif;
+}
+ul.topnav li a:hover {
+  background-color: white;
+  color: black;
+}
+.menutable {
+  color: white;
+  font-family: "Montserrat", serif, sans-serif;
+  font-weight: 1000;
+}
